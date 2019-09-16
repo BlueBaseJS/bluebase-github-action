@@ -22,9 +22,7 @@ You can read more about this in the [GitHub Actions documentation][link-actions]
 
 ### Installing a BlueBase CLI Plugin
 
-This action come with Web & Expo CLI plugins pre-installed.
-
-To install additional actions see the following example.
+To install a cli plugin see the following example.
 
 ```yml
 - name: Install BlueBase Web Plugin
