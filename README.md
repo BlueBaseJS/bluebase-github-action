@@ -28,9 +28,9 @@ To install additional actions see the following example.
 
 ```yml
 - name: Install BlueBase Web Plugin
-	uses: BlueBaseJS/bluebase-github-action@master
-	with:
-		args: plugins:add @bluebase/cli-expo
+  uses: BlueBaseJS/bluebase-github-action@master
+  with:
+    args: plugins:add @bluebase/cli-expo
 ```
 
 ### Building Expo
@@ -40,8 +40,8 @@ To build an expo project see the following example:
 ```yml
 - name: Build Expo
 	uses: BlueBaseJS/bluebase-github-action@master
-	with:
-		args: expo:build
+  with:
+    args: expo:build
 ```
 
 [link-actions]: https://developer.github.com/actions/
